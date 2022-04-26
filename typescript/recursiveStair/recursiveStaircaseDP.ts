@@ -1,14 +1,14 @@
 /*
  * @Date: 2022-04-25 17:29:22
- * @LastEditTime: 2022-04-25 19:23:21
+ * @LastEditTime: 2022-04-26 11:01:49
  * @LastEditors: Cover
  * @Description: 
- * @FilePath: /daily-exercise/typescript/台阶问题/recursiveStaircaseDP.ts
+ * @FilePath: /daily-exercise/typescript/recursiveStair/recursiveStaircaseDP.ts
  * So do you want take a leap of faith or become an old man, filled with regret waiting to die alone ?
  */
 
 /**
- * Recursive Staircase Problem (Dynamic Programming Solution 动态编程解决方案).
+ * Recursive Staircase Problem (Dynamic Programming Solution 动态规划解决方案).
  * * 出处:https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/uncategorized/recursive-staircase/recursiveStaircaseDP.js
  * 此方法的时间复杂度及空间复杂 - Time: O(n); Space: O(n)
  * @param {number} stairsNum - Number of stairs to climb on 台阶总数.

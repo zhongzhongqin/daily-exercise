@@ -1,9 +1,9 @@
 /*
  * @Date: 2022-04-25 19:21:05
- * @LastEditTime: 2022-04-25 19:23:49
+ * @LastEditTime: 2022-04-26 09:52:08
  * @LastEditors: Cover
  * @Description: 
- * @FilePath: /daily-exercise/typescript/台阶问题/recursiveStaircaseMEM.ts
+ * @FilePath: /daily-exercise/typescript/recursiveStair/recursiveStaircaseMEM.ts
  * So do you want take a leap of faith or become an old man, filled with regret waiting to die alone ?
  */
 
