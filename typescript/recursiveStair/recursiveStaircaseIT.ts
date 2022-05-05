@@ -1,9 +1,9 @@
 /*
  * @Date: 2022-04-25 18:29:13
- * @LastEditTime: 2022-04-25 19:22:56
+ * @LastEditTime: 2022-04-26 11:02:16
  * @LastEditors: Cover
  * @Description: 
- * @FilePath: /daily-exercise/typescript/台阶问题/recursiveStaircaseIT.ts
+ * @FilePath: /daily-exercise/typescript/recursiveStair/recursiveStaircaseIT.ts
  * So do you want take a leap of faith or become an old man, filled with regret waiting to die alone ?
  */
 
@@ -29,8 +29,10 @@ function recursiveStaircaseIT(stairsNum) {
     }
 
     // Calculate the number of ways to get to the n'th step based on previous ones.
+    // 基于先前的计算走完第n阶的所有方式
     // Comparing to Dynamic Programming solution we don't store info for all the steps but
     // rather for two previous ones only.
+    // 对比动态规划方案，我们仅会存储先前两步的信息，而不是所有的信息。
     for (let currentStep = 3; currentStep <= stairsNum; currentStep += 1) {
         [steps[0], steps[1]] = [steps[1], steps[0] + steps[1]];
     }
