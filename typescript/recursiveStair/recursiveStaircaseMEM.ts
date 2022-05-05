@@ -23,7 +23,7 @@ function recursiveStaircaseMEM(totalStairs) {
     const getSteps = (stairsNum) => {
         if (stairsNum <= 0) {
             // There is no way to go down - you climb the stairs only upwards.
-            // Also if you're standing on the ground floor that you don't need to do any further steps.
+            // Also, if you're standing on the ground floor that you don't need to do any further steps.
             return 0;
         }
 
