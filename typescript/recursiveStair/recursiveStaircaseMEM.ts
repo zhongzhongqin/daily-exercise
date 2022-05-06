@@ -1,6 +1,6 @@
 /*
  * @Date: 2022-04-25 19:21:05
- * @LastEditTime: 2022-04-26 09:52:08
+ * @LastEditTime: 2022-05-06 10:12:55
  * @LastEditors: Cover
  * @Description: 
  * @FilePath: /daily-exercise/typescript/recursiveStair/recursiveStaircaseMEM.ts
@@ -11,10 +11,10 @@
  * Recursive Staircase Problem (Recursive Solution With Memoization).
  *
  *  * 此方法的时间复杂度及空间复杂 -Time: O(n); Space: O(n)
- * @param {number} totalStairs - Number of stairs to climb on.
+ * @param {number} stairsNum - Number of stairs to climb on.
  * @return {number} - Number of ways to climb a staircase.
  */
-function recursiveStaircaseMEM(totalStairs) {
+function recursiveStaircaseMEM(stairsNum) {
     // Memo table that will hold all recursively calculated results to avoid calculating them
     // over and over again.
     const memo = [];
@@ -50,5 +50,5 @@ function recursiveStaircaseMEM(totalStairs) {
     };
 
     // Return possible ways to get to the requested step.
-    return getSteps(totalStairs);
+    return getSteps(stairsNum);
 }
